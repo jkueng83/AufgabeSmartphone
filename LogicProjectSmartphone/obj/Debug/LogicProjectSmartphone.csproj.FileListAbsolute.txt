@@ -1,0 +1,6 @@
+C:\03_Coding\02 Projects\C#\AufgabeSmartphone\LogicProjectSmartphone\obj\Debug\LogicProjectSmartphone.csprojAssemblyReference.cache
+C:\03_Coding\02 Projects\C#\AufgabeSmartphone\LogicProjectSmartphone\obj\Debug\LogicProjectSmartphone.csproj.CoreCompileInputs.cache
+C:\03_Coding\02 Projects\C#\AufgabeSmartphone\LogicProjectSmartphone\bin\Debug\LogicProjectSmartphone.dll
+C:\03_Coding\02 Projects\C#\AufgabeSmartphone\LogicProjectSmartphone\bin\Debug\LogicProjectSmartphone.pdb
+C:\03_Coding\02 Projects\C#\AufgabeSmartphone\LogicProjectSmartphone\obj\Debug\LogicProjectSmartphone.dll
+C:\03_Coding\02 Projects\C#\AufgabeSmartphone\LogicProjectSmartphone\obj\Debug\LogicProjectSmartphone.pdb
