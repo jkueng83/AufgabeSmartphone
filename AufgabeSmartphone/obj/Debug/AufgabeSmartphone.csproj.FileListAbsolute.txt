@@ -1,5 +1,4 @@
 C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\AufgabeSmartphone.csprojAssemblyReference.cache
-C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\AufgabeSmartphone.Form1.resources
 C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\AufgabeSmartphone.Properties.Resources.resources
 C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\AufgabeSmartphone.csproj.GenerateResource.cache
 C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\AufgabeSmartphone.csproj.CoreCompileInputs.cache
@@ -11,3 +10,4 @@ C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\Aufgab
 C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\bin\Debug\LogicProjectSmartphone.dll
 C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\bin\Debug\LogicProjectSmartphone.pdb
 C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\AufgabeSmartphone.csproj.CopyComplete
+C:\03_Coding\02 Projects\C#\AufgabeSmartphone\AufgabeSmartphone\obj\Debug\AufgabeSmartphone.FormSmartPhone.resources

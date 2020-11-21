@@ -6,17 +6,27 @@ using System.Threading.Tasks;
 
 namespace AufgabeSmartphone.models
 {
-    class App
-    {
-        
-        private string _version;
+   public class App
+    {        
+        internal string _version;        
 
         public App( string name, string version)
         {
             Name = name;
-            this._version = version;
+            _version = version;
+           
+        }  
+       
+        public string Name { get; set; }
+
+        public override string ToString()
+        {
+            return "App name: " + Name + " - Version: " + _version;
         }
 
-        public string Name { get; set; }
+        public virtual string StartApp()
+        {
+            return "The application: '" + Name + "' is running in version: '" + _version + "'";
+        }
     }
 }
