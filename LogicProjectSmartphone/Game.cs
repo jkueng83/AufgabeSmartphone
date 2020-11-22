@@ -10,9 +10,10 @@ namespace LogicProjectSmartphone
     public class Game : App
     {
         private string _description;
+
         public Game(string name, string version, string description) : base(name, version)
         {
-            this._description = description;          
+            _description = description;          
         }
 
         public override string ToString()
@@ -24,7 +25,8 @@ namespace LogicProjectSmartphone
 
          public override string StartApp()
         {
-            return "The game: '" + Name + "' is running in Version: '" + _version + "'";
+            return "The game: '" + Name + 
+                "' is running in version: '" + _version + "'";
         }
     }
 }

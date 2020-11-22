@@ -13,8 +13,7 @@ namespace AufgabeSmartphone.models
         public App( string name, string version)
         {
             Name = name;
-            _version = version;
-           
+            _version = version;           
         }  
        
         public string Name { get; set; }

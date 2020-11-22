@@ -39,14 +39,17 @@
             this.btInstallApp = new System.Windows.Forms.Button();
             this.btInstallGame = new System.Windows.Forms.Button();
             this.tBoxGameDescription = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelSmartphoneName
             // 
             this.labelSmartphoneName.AutoSize = true;
-            this.labelSmartphoneName.Location = new System.Drawing.Point(37, 38);
+            this.labelSmartphoneName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSmartphoneName.Location = new System.Drawing.Point(36, 28);
             this.labelSmartphoneName.Name = "labelSmartphoneName";
-            this.labelSmartphoneName.Size = new System.Drawing.Size(92, 13);
+            this.labelSmartphoneName.Size = new System.Drawing.Size(153, 20);
             this.labelSmartphoneName.TabIndex = 0;
             this.labelSmartphoneName.Tag = "";
             this.labelSmartphoneName.Text = "SmartphoneName";
@@ -103,23 +106,23 @@
             // 
             // tBoxAppName
             // 
-            this.tBoxAppName.Location = new System.Drawing.Point(40, 330);
+            this.tBoxAppName.Location = new System.Drawing.Point(4, 28);
             this.tBoxAppName.Name = "tBoxAppName";
-            this.tBoxAppName.Size = new System.Drawing.Size(100, 20);
+            this.tBoxAppName.Size = new System.Drawing.Size(145, 20);
             this.tBoxAppName.TabIndex = 6;
             this.tBoxAppName.Text = "App or Game name";
             // 
             // tBoxVersion
             // 
-            this.tBoxVersion.Location = new System.Drawing.Point(178, 330);
+            this.tBoxVersion.Location = new System.Drawing.Point(160, 28);
             this.tBoxVersion.Name = "tBoxVersion";
-            this.tBoxVersion.Size = new System.Drawing.Size(100, 20);
+            this.tBoxVersion.Size = new System.Drawing.Size(145, 20);
             this.tBoxVersion.TabIndex = 7;
             this.tBoxVersion.Text = "Version";
             // 
             // btInstallApp
             // 
-            this.btInstallApp.Location = new System.Drawing.Point(40, 420);
+            this.btInstallApp.Location = new System.Drawing.Point(5, 80);
             this.btInstallApp.Name = "btInstallApp";
             this.btInstallApp.Size = new System.Drawing.Size(75, 23);
             this.btInstallApp.TabIndex = 8;
@@ -129,7 +132,7 @@
             // 
             // btInstallGame
             // 
-            this.btInstallGame.Location = new System.Drawing.Point(40, 450);
+            this.btInstallGame.Location = new System.Drawing.Point(6, 109);
             this.btInstallGame.Name = "btInstallGame";
             this.btInstallGame.Size = new System.Drawing.Size(75, 23);
             this.btInstallGame.TabIndex = 9;
@@ -139,22 +142,33 @@
             // 
             // tBoxGameDescription
             // 
-            this.tBoxGameDescription.Location = new System.Drawing.Point(40, 357);
+            this.tBoxGameDescription.Location = new System.Drawing.Point(5, 54);
             this.tBoxGameDescription.Name = "tBoxGameDescription";
-            this.tBoxGameDescription.Size = new System.Drawing.Size(267, 20);
+            this.tBoxGameDescription.Size = new System.Drawing.Size(300, 20);
             this.tBoxGameDescription.TabIndex = 10;
             this.tBoxGameDescription.Text = "Game Description";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.groupBox1.Controls.Add(this.btInstallGame);
+            this.groupBox1.Controls.Add(this.tBoxVersion);
+            this.groupBox1.Controls.Add(this.tBoxGameDescription);
+            this.groupBox1.Controls.Add(this.tBoxAppName);
+            this.groupBox1.Controls.Add(this.btInstallApp);
+            this.groupBox1.Location = new System.Drawing.Point(40, 328);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(312, 144);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Install new App or Game";
             // 
             // FormSmartPhone
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 511);
-            this.Controls.Add(this.tBoxGameDescription);
-            this.Controls.Add(this.btInstallGame);
-            this.Controls.Add(this.btInstallApp);
-            this.Controls.Add(this.tBoxVersion);
-            this.Controls.Add(this.tBoxAppName);
+            this.ClientSize = new System.Drawing.Size(395, 503);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btShowAll);
             this.Controls.Add(this.btStartApplication);
             this.Controls.Add(this.btShowGames);
@@ -163,6 +177,8 @@
             this.Controls.Add(this.labelSmartphoneName);
             this.Name = "FormSmartPhone";
             this.Text = "Smartphone";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,6 +197,7 @@
         private System.Windows.Forms.Button btInstallApp;
         private System.Windows.Forms.Button btInstallGame;
         private System.Windows.Forms.TextBox tBoxGameDescription;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 

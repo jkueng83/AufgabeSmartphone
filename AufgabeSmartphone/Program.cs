@@ -11,7 +11,7 @@ namespace AufgabeSmartphone
     {
         /// <summary>
         /// 
-        /* 
+        /* Aufgabe Smart Phone
          * Erstelle eine Klasse Smartphone, die unteranderem eine Liste an Apps enthält. 
          * Erstelle zusätzlich eine Klasse App mit einigen Properties, die alle Apps haben 
          * und eine dritte Klasse Game, welche von App erbt und selbst noch ein paar Properties hat. 

@@ -21,7 +21,7 @@ namespace AufgabeSmartphone
         {
             InitializeComponent();
 
-            smartphone = new Smartphone();
+            smartphone = new Smartphone("my phone");
 
             labelSmartphoneName.Text = smartphone.Name;
             UpdateListboxAppsWihtAllAppsAndGAmes();
