@@ -42,24 +42,17 @@ namespace AufgabeSmartphone.models
             get
             {
                 SelectApps();
-                return _apps;
+                return SelectApps(); // _apps;
             }
         }
 
-        //private List<Game> SelectGames()
-        //{
-        //    //List<Game> games = apps.Where(app => Game.Equals  app.GetType().Equals(Game); // .OfType<App>();
-        //   // var game = new Game("to get type of Game", "23", "");
-        //    //var list = from app in _apps where (app.Type == "all") select app;
-        //   // List<Game> games = from app in _apps where (app.Type == "all") select app;
-        //    return games;
-        //}
+       
         public List<App> Games
         {
             get
             {
                 SelectGames();
-                return _games;
+                return SelectGames();// _games;
             }
         }
 
@@ -164,48 +157,23 @@ namespace AufgabeSmartphone.models
             }
         }
 
-        private void SelectGames()
+        private List<App> SelectGames()
         {
-
             Game gameToCompare = new Game("to compare ", "", "");
+                      
+            var collectionOfAllGames = _allApps.Select(app => app).
+                Where(app => app.GetType() == gameToCompare.GetType()).ToList();//Jetzt hab ich es gefunden: ToList gibt eine Liste zurück!
 
-            //List<Game> games = _allApps.Select(app => (app.GetType() == game.GetType()));
-
-            var gamesTest = _allApps.Select(app => app.GetType() == gameToCompare.GetType()).
-                Where(app => app.GetType() == gameToCompare.GetType());
-            var games = from g in _allApps
-                        where g.GetType() == gameToCompare.GetType()
-                        select g;
-
-            
-
-            //bool isEqual = app.GetType() == a.GetType();
-            //if (app.GetType() == game.GetType())
-            //{
-            //    AddGame(app);
-            //}
-            //else if (app.GetType() == a.GetType())
-            //{
-            //    AddApp(app);
-            //}
-            //else
-            //{
-            //    Console.WriteLine("no app");
-            //}
+            return collectionOfAllGames;            
         }
 
-        private void SelectApps()
+        private List<App> SelectApps()
         {
             App appToCompare = new App("to compare", "");
 
+            List<App> collectionOfAllApps = _allApps.Select(app => app).Where(app => app.GetType() == appToCompare.GetType()).ToList();
 
-            //List<Game> games = _allApps.Select(app => (app.GetType() == game.GetType()));
-
-
-            var apps = from g in _allApps
-                       where g.GetType() == appToCompare.GetType()
-                       select g;
-
+            return collectionOfAllApps;
 
         }
     }
